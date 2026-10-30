@@ -16,6 +16,8 @@ tokens by `scripts/build_theme.py`. See [NOTICE](NOTICE) for attribution.
 
 ![Islands UI Dark with the islands layout](screenshots/islands-dark.png)
 
+![Islands UI Light with the islands layout](screenshots/islands-light.png)
+
 ## Install (dev extension)
 
 1. Clone this repository.
@@ -43,6 +45,7 @@ Add to your Zed `settings.json`:
   "buffer_font_size": 13,
   "buffer_line_height": { "custom": 1.4 },
   "tab_bar": { "show_nav_history_buttons": false },
+  "toolbar": { "breadcrumbs": false, "quick_actions": false },
   "tabs": { "file_icons": true, "git_status": true },
   "project_panel": { "indent_size": 16 },
   "scrollbar": { "show": "auto" }
@@ -62,7 +65,8 @@ the editor and docks as rounded islands, editor tabs as pills, and project
 panel rows as inset rounded highlights, and moves panel toggles into IDEA-style
 tool window stripes along the window edges. The title bar gets IDEA-style project,
 branch and run widgets, and each docked panel gets a header row with its name,
-its actions, an options menu and a hide button. Enable it with:
+its actions, an options menu and a hide button. Stripes and headers use IDEA's
+tool window icons. Enable it with:
 
 ```jsonc
 "islands": { "enabled": true, "gap": 6, "corner_radius": 10, "tool_window_stripes": true }
