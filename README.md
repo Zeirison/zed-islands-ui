@@ -66,10 +66,11 @@ panel rows as inset rounded highlights, and moves panel toggles into IDEA-style
 tool window stripes along the window edges. The title bar gets IDEA-style project,
 branch and run widgets, and each docked panel gets a header row with its name,
 its actions, an options menu and a hide button. Stripes and headers use IDEA's
-tool window icons. Enable it with:
+tool window icons, and the status bar shows IDEA's navigation path
+(project › folder › file › symbol). Enable it with:
 
 ```jsonc
-"islands": { "enabled": true, "gap": 6, "corner_radius": 10, "tool_window_stripes": true }
+"islands": { "enabled": true, "gap": 6, "corner_radius": 10, "tool_window_stripes": true, "navigation_path": true }
 ```
 
 ## Regenerating the theme
