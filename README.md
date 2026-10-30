@@ -71,7 +71,9 @@ tool window icons, and the status bar shows IDEA's navigation path
 (project › folder › file › symbol). Pickers, menus and popups get the islands
 corner radius and rounded selection rows. The gutter uses IDEA's green run icons
 and hover-only fold arrows, scrollbars are thin and rounded, and notifications
-look like IDEA's balloons. `"compact": true` switches to IDEA's compact metrics. Enable it with:
+look like IDEA's balloons. `"compact": true` switches to IDEA's compact metrics. With
+`"use_system_window_tabs": true` (macOS), merged project windows show as IDEA-style
+project tabs with each project's name and initials. Enable it with:
 
 ```jsonc
 "islands": { "enabled": true, "gap": 6, "corner_radius": 10, "tool_window_stripes": true, "navigation_path": true, "compact": false }
