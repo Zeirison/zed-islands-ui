@@ -69,10 +69,12 @@ its actions, an options menu and a hide button (the terminal's tabs share that
 row, as in IDEA). Stripes and headers use IDEA's
 tool window icons, and the status bar shows IDEA's navigation path
 (project › folder › file › symbol). Pickers, menus and popups get the islands
-corner radius and rounded selection rows. Enable it with:
+corner radius and rounded selection rows. The gutter uses IDEA's green run icons
+and hover-only fold arrows, scrollbars are thin and rounded, and notifications
+look like IDEA's balloons. `"compact": true` switches to IDEA's compact metrics. Enable it with:
 
 ```jsonc
-"islands": { "enabled": true, "gap": 6, "corner_radius": 10, "tool_window_stripes": true, "navigation_path": true }
+"islands": { "enabled": true, "gap": 6, "corner_radius": 10, "tool_window_stripes": true, "navigation_path": true, "compact": false }
 ```
 
 ## Regenerating the theme
