@@ -61,7 +61,8 @@ A prototype of the layout change lives on the `islands-layout` branch of
 the editor and docks as rounded islands, editor tabs as pills, and project
 panel rows as inset rounded highlights, and moves panel toggles into IDEA-style
 tool window stripes along the window edges. The title bar gets IDEA-style project,
-branch and run widgets. Enable it with:
+branch and run widgets, and each docked panel gets a header row with its name,
+its actions, an options menu and a hide button. Enable it with:
 
 ```jsonc
 "islands": { "enabled": true, "gap": 6, "corner_radius": 10, "tool_window_stripes": true }
