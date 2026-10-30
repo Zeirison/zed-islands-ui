@@ -9,6 +9,8 @@ IntelliJ-based IDEs (IntelliJ IDEA, PyCharm, RustRover, and others).
 Colors are read from JetBrains' Apache-2.0 sources and mapped onto Zed's theme
 tokens by `scripts/build_theme.py`. See [NOTICE](NOTICE) for attribution.
 
+![Islands UI Dark with the islands layout](screenshots/islands-dark.png)
+
 ## Install (dev extension)
 
 1. Clone this repository.
@@ -29,6 +31,7 @@ Add to your Zed `settings.json`:
   "buffer_font_size": 13,
   "buffer_line_height": { "custom": 1.4 },
   "tab_bar": { "show_nav_history_buttons": false },
+  "tabs": { "file_icons": true, "git_status": true },
   "project_panel": { "indent_size": 16 },
   "scrollbar": { "show": "auto" }
 }
@@ -41,8 +44,10 @@ the Islands look need a change to Zed itself. The theme gets part of the way
 there: window chrome and the borders between panels use the darker "gap" color,
 while panels and the editor use the lighter "island" color.
 
-A prototype of the layout change lives in a Zed fork on the `islands-layout`
-branch. It adds this setting:
+A prototype of the layout change lives on the `islands-layout` branch of
+[Zeirison/zed](https://github.com/Zeirison/zed/tree/islands-layout). It draws
+the editor and docks as rounded islands, editor tabs as pills, and project
+panel rows as inset rounded highlights. Enable it with:
 
 ```jsonc
 "islands": { "enabled": true, "gap": 6, "corner_radius": 10 }
