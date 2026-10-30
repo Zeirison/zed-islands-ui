@@ -65,7 +65,8 @@ the editor and docks as rounded islands, editor tabs as pills, and project
 panel rows as inset rounded highlights, and moves panel toggles into IDEA-style
 tool window stripes along the window edges. The title bar gets IDEA-style project,
 branch and run widgets, and each docked panel gets a header row with its name,
-its actions, an options menu and a hide button. Stripes and headers use IDEA's
+its actions, an options menu and a hide button (the terminal's tabs share that
+row, as in IDEA). Stripes and headers use IDEA's
 tool window icons, and the status bar shows IDEA's navigation path
 (project › folder › file › symbol). Pickers, menus and popups get the islands
 corner radius and rounded selection rows. Enable it with:
