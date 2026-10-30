@@ -3,5 +3,5 @@ name = "Islands UI"
 version = "0.1.0"
 schema_version = 1
 authors = ["Dmytro <https://github.com/Zeirison>"]
-description = "Dark and light themes using the colors of the Islands UI from IntelliJ-based IDEs."
+description = "Themes and file icons based on the Islands UI from IntelliJ-based IDEs."
 repository = "https://github.com/Zeirison/zed-islands-ui"

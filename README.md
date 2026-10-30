@@ -6,6 +6,11 @@ IntelliJ-based IDEs (IntelliJ IDEA, PyCharm, RustRover, and others).
 - **Islands UI Dark**: the "Islands Dark" UI theme plus its editor color scheme.
 - **Islands UI Light**: the "Islands Light" UI theme plus the "Light" editor color scheme.
 
+- **Islands UI Icons Dark / Light**: an icon theme with IDEA's new UI file and
+  folder icons. Folders named `src`, `test`, `resources`, `target`, `build`,
+  `node_modules` and similar get IDEA's source, test, resource and excluded
+  folder colors.
+
 Colors are read from JetBrains' Apache-2.0 sources and mapped onto Zed's theme
 tokens by `scripts/build_theme.py`. See [NOTICE](NOTICE) for attribution.
 
@@ -16,7 +21,13 @@ tokens by `scripts/build_theme.py`. See [NOTICE](NOTICE) for attribution.
 1. Clone this repository.
 2. In Zed, open the command palette and run `zed: install dev extension`.
 3. Pick the cloned folder, then select **Islands UI Dark** or **Islands UI Light**
-   with `theme selector: toggle`.
+   with `theme selector: toggle`, and **Islands UI Icons Dark** or
+   **Islands UI Icons Light** with `icon theme selector: toggle`.
+
+Icons cover the file types IDEA ships under Apache-2.0 (Java, Kotlin, Python,
+JavaScript, TypeScript, C/C++, C#, PHP, Scala, Swift, web, config and data
+files). Languages whose IDEA icons are not open source, such as Rust, Go and
+Ruby, keep Zed's default icons.
 
 ## Settings for a closer match
 
@@ -25,6 +36,7 @@ Add to your Zed `settings.json`:
 ```jsonc
 {
   "theme": { "mode": "system", "dark": "Islands UI Dark", "light": "Islands UI Light" },
+  "icon_theme": { "mode": "system", "dark": "Islands UI Icons Dark", "light": "Islands UI Icons Light" },
   "ui_font_family": "Inter",
   "ui_font_size": 13,
   "buffer_font_family": "JetBrains Mono",
@@ -57,6 +69,7 @@ panel rows as inset rounded highlights. Enable it with:
 
 ```sh
 python3 scripts/build_theme.py themes/islands-ui.json
+python3 scripts/build_icon_theme.py /path/to/intellij-community .
 ```
 
 ## License

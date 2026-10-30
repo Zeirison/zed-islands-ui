@@ -1,0 +1,579 @@
+{
+  "$schema": "https://zed.dev/schema/icon_themes/v0.3.0.json",
+  "name": "Islands UI Icons",
+  "author": "Dmytro (icons from JetBrains IntelliJ Platform, Apache-2.0)",
+  "themes": [
+    {
+      "name": "Islands UI Icons Dark",
+      "appearance": "dark",
+      "directory_icons": {
+        "collapsed": "./icons/dark/folder.svg",
+        "expanded": "./icons/dark/folder.svg"
+      },
+      "named_directory_icons": {
+        ".github": {
+          "collapsed": "./icons/dark/folderGithub.svg",
+          "expanded": "./icons/dark/folderGithub.svg"
+        },
+        "src": {
+          "collapsed": "./icons/dark/sourceRoot.svg",
+          "expanded": "./icons/dark/sourceRoot.svg"
+        },
+        "lib": {
+          "collapsed": "./icons/dark/sourceRoot.svg",
+          "expanded": "./icons/dark/sourceRoot.svg"
+        },
+        "test": {
+          "collapsed": "./icons/dark/testRoot.svg",
+          "expanded": "./icons/dark/testRoot.svg"
+        },
+        "tests": {
+          "collapsed": "./icons/dark/testRoot.svg",
+          "expanded": "./icons/dark/testRoot.svg"
+        },
+        "spec": {
+          "collapsed": "./icons/dark/testRoot.svg",
+          "expanded": "./icons/dark/testRoot.svg"
+        },
+        "resources": {
+          "collapsed": "./icons/dark/resourcesRoot.svg",
+          "expanded": "./icons/dark/resourcesRoot.svg"
+        },
+        "assets": {
+          "collapsed": "./icons/dark/resourcesRoot.svg",
+          "expanded": "./icons/dark/resourcesRoot.svg"
+        },
+        "target": {
+          "collapsed": "./icons/dark/excludeRoot.svg",
+          "expanded": "./icons/dark/excludeRoot.svg"
+        },
+        "build": {
+          "collapsed": "./icons/dark/excludeRoot.svg",
+          "expanded": "./icons/dark/excludeRoot.svg"
+        },
+        "dist": {
+          "collapsed": "./icons/dark/excludeRoot.svg",
+          "expanded": "./icons/dark/excludeRoot.svg"
+        },
+        "out": {
+          "collapsed": "./icons/dark/excludeRoot.svg",
+          "expanded": "./icons/dark/excludeRoot.svg"
+        },
+        "node_modules": {
+          "collapsed": "./icons/dark/excludeRoot.svg",
+          "expanded": "./icons/dark/excludeRoot.svg"
+        },
+        ".idea": {
+          "collapsed": "./icons/dark/excludeRoot.svg",
+          "expanded": "./icons/dark/excludeRoot.svg"
+        },
+        "docs": {
+          "collapsed": "./icons/dark/javaDocFolder.svg",
+          "expanded": "./icons/dark/javaDocFolder.svg"
+        },
+        "logs": {
+          "collapsed": "./icons/dark/logFolder.svg",
+          "expanded": "./icons/dark/logFolder.svg"
+        }
+      },
+      "chevron_icons": {
+        "collapsed": "./icons/dark/chevronRight.svg",
+        "expanded": "./icons/dark/chevronDown.svg"
+      },
+      "file_stems": {},
+      "file_suffixes": {
+        "h": "c_header",
+        "hpp": "c_header",
+        "hh": "c_header",
+        "hxx": "c_header",
+        "csv": "csv",
+        "tsv": "csv",
+        "gradle": "gradle",
+        "groovy": "groovy",
+        "gvy": "groovy",
+        "http": "http",
+        "rest": "http",
+        "png": "image",
+        "jpg": "image",
+        "jpeg": "image",
+        "gif": "image",
+        "webp": "image",
+        "bmp": "image",
+        "ico": "image",
+        "svg": "image",
+        "tiff": "image",
+        "avif": "image",
+        "class": "java_class",
+        "kts": "kotlin_script",
+        "gradle.kts": "kotlin_gradle",
+        "mf": "manifest",
+        "pl": "perl",
+        "pm": "perl",
+        "properties": "properties",
+        "env": "properties",
+        "rst": "rst",
+        "sql": "sql",
+        "txt": "text",
+        "zip": "archive",
+        "jar": "archive",
+        "tar": "archive",
+        "gz": "archive",
+        "tgz": "archive",
+        "7z": "archive",
+        "rar": "archive",
+        "xz": "archive",
+        "bin": "binary",
+        "exe": "windows",
+        "dll": "windows",
+        "bat": "windows",
+        "cmd": "windows",
+        "xsd": "xsd",
+        "gitignore": "git",
+        "gitattributes": "git",
+        "gitmodules": "git",
+        "dockerignore": "docker"
+      },
+      "file_icons": {
+        "default": {
+          "path": "./icons/dark/anyType.svg"
+        },
+        "c": {
+          "path": "./icons/dark/c.svg"
+        },
+        "cpp": {
+          "path": "./icons/dark/cpp.svg"
+        },
+        "c_header": {
+          "path": "./icons/dark/h.svg"
+        },
+        "csharp": {
+          "path": "./icons/dark/Csharp.svg"
+        },
+        "css": {
+          "path": "./icons/dark/css.svg"
+        },
+        "sass": {
+          "path": "./icons/dark/css.svg"
+        },
+        "csv": {
+          "path": "./icons/dark/csv.svg"
+        },
+        "diff": {
+          "path": "./icons/dark/patch.svg"
+        },
+        "docker": {
+          "path": "./icons/dark/docker.svg"
+        },
+        "editorconfig": {
+          "path": "./icons/dark/editorConfig.svg"
+        },
+        "font": {
+          "path": "./icons/dark/font.svg"
+        },
+        "git": {
+          "path": "./icons/dark/ignored.svg"
+        },
+        "gradle": {
+          "path": "./icons/dark/gradle.svg"
+        },
+        "graphql": {
+          "path": "./icons/dark/graphql.svg"
+        },
+        "groovy": {
+          "path": "./icons/dark/groovy.svg"
+        },
+        "html": {
+          "path": "./icons/dark/html.svg"
+        },
+        "http": {
+          "path": "./icons/dark/http.svg"
+        },
+        "image": {
+          "path": "./icons/dark/image.svg"
+        },
+        "ipynb": {
+          "path": "./icons/dark/jupyter.svg"
+        },
+        "java": {
+          "path": "./icons/dark/java.svg"
+        },
+        "java_class": {
+          "path": "./icons/dark/javaClass.svg"
+        },
+        "javascript": {
+          "path": "./icons/dark/javaScript.svg"
+        },
+        "json": {
+          "path": "./icons/dark/json.svg"
+        },
+        "kotlin": {
+          "path": "./icons/dark/kotlin.svg"
+        },
+        "kotlin_script": {
+          "path": "./icons/dark/kotlinScript.svg"
+        },
+        "kotlin_gradle": {
+          "path": "./icons/dark/kotlinGradleScript.svg"
+        },
+        "log": {
+          "path": "./icons/dark/text.svg"
+        },
+        "manifest": {
+          "path": "./icons/dark/manifest.svg"
+        },
+        "markdown": {
+          "path": "./icons/dark/markdown.svg"
+        },
+        "perl": {
+          "path": "./icons/dark/perl.svg"
+        },
+        "php": {
+          "path": "./icons/dark/php.svg"
+        },
+        "properties": {
+          "path": "./icons/dark/properties.svg"
+        },
+        "python": {
+          "path": "./icons/dark/python.svg"
+        },
+        "regexp": {
+          "path": "./icons/dark/regexp.svg"
+        },
+        "rst": {
+          "path": "./icons/dark/rst.svg"
+        },
+        "scala": {
+          "path": "./icons/dark/scala.svg"
+        },
+        "settings": {
+          "path": "./icons/dark/config.svg"
+        },
+        "sql": {
+          "path": "./icons/dark/sql.svg"
+        },
+        "swift": {
+          "path": "./icons/dark/swiftLang.svg"
+        },
+        "template": {
+          "path": "./icons/dark/xml.svg"
+        },
+        "terminal": {
+          "path": "./icons/dark/shell.svg"
+        },
+        "terraform": {
+          "path": "./icons/dark/terraform.svg"
+        },
+        "text": {
+          "path": "./icons/dark/text.svg"
+        },
+        "toml": {
+          "path": "./icons/dark/toml.svg"
+        },
+        "typescript": {
+          "path": "./icons/dark/typeScript.svg"
+        },
+        "archive": {
+          "path": "./icons/dark/archive.svg"
+        },
+        "binary": {
+          "path": "./icons/dark/binaryData.svg"
+        },
+        "windows": {
+          "path": "./icons/dark/microsoftWindows.svg"
+        },
+        "xsd": {
+          "path": "./icons/dark/xsd.svg"
+        },
+        "yaml": {
+          "path": "./icons/dark/yaml.svg"
+        }
+      }
+    },
+    {
+      "name": "Islands UI Icons Light",
+      "appearance": "light",
+      "directory_icons": {
+        "collapsed": "./icons/light/folder.svg",
+        "expanded": "./icons/light/folder.svg"
+      },
+      "named_directory_icons": {
+        ".github": {
+          "collapsed": "./icons/light/folderGithub.svg",
+          "expanded": "./icons/light/folderGithub.svg"
+        },
+        "src": {
+          "collapsed": "./icons/light/sourceRoot.svg",
+          "expanded": "./icons/light/sourceRoot.svg"
+        },
+        "lib": {
+          "collapsed": "./icons/light/sourceRoot.svg",
+          "expanded": "./icons/light/sourceRoot.svg"
+        },
+        "test": {
+          "collapsed": "./icons/light/testRoot.svg",
+          "expanded": "./icons/light/testRoot.svg"
+        },
+        "tests": {
+          "collapsed": "./icons/light/testRoot.svg",
+          "expanded": "./icons/light/testRoot.svg"
+        },
+        "spec": {
+          "collapsed": "./icons/light/testRoot.svg",
+          "expanded": "./icons/light/testRoot.svg"
+        },
+        "resources": {
+          "collapsed": "./icons/light/resourcesRoot.svg",
+          "expanded": "./icons/light/resourcesRoot.svg"
+        },
+        "assets": {
+          "collapsed": "./icons/light/resourcesRoot.svg",
+          "expanded": "./icons/light/resourcesRoot.svg"
+        },
+        "target": {
+          "collapsed": "./icons/light/excludeRoot.svg",
+          "expanded": "./icons/light/excludeRoot.svg"
+        },
+        "build": {
+          "collapsed": "./icons/light/excludeRoot.svg",
+          "expanded": "./icons/light/excludeRoot.svg"
+        },
+        "dist": {
+          "collapsed": "./icons/light/excludeRoot.svg",
+          "expanded": "./icons/light/excludeRoot.svg"
+        },
+        "out": {
+          "collapsed": "./icons/light/excludeRoot.svg",
+          "expanded": "./icons/light/excludeRoot.svg"
+        },
+        "node_modules": {
+          "collapsed": "./icons/light/excludeRoot.svg",
+          "expanded": "./icons/light/excludeRoot.svg"
+        },
+        ".idea": {
+          "collapsed": "./icons/light/excludeRoot.svg",
+          "expanded": "./icons/light/excludeRoot.svg"
+        },
+        "docs": {
+          "collapsed": "./icons/light/javaDocFolder.svg",
+          "expanded": "./icons/light/javaDocFolder.svg"
+        },
+        "logs": {
+          "collapsed": "./icons/light/logFolder.svg",
+          "expanded": "./icons/light/logFolder.svg"
+        }
+      },
+      "chevron_icons": {
+        "collapsed": "./icons/light/chevronRight.svg",
+        "expanded": "./icons/light/chevronDown.svg"
+      },
+      "file_stems": {},
+      "file_suffixes": {
+        "h": "c_header",
+        "hpp": "c_header",
+        "hh": "c_header",
+        "hxx": "c_header",
+        "csv": "csv",
+        "tsv": "csv",
+        "gradle": "gradle",
+        "groovy": "groovy",
+        "gvy": "groovy",
+        "http": "http",
+        "rest": "http",
+        "png": "image",
+        "jpg": "image",
+        "jpeg": "image",
+        "gif": "image",
+        "webp": "image",
+        "bmp": "image",
+        "ico": "image",
+        "svg": "image",
+        "tiff": "image",
+        "avif": "image",
+        "class": "java_class",
+        "kts": "kotlin_script",
+        "gradle.kts": "kotlin_gradle",
+        "mf": "manifest",
+        "pl": "perl",
+        "pm": "perl",
+        "properties": "properties",
+        "env": "properties",
+        "rst": "rst",
+        "sql": "sql",
+        "txt": "text",
+        "zip": "archive",
+        "jar": "archive",
+        "tar": "archive",
+        "gz": "archive",
+        "tgz": "archive",
+        "7z": "archive",
+        "rar": "archive",
+        "xz": "archive",
+        "bin": "binary",
+        "exe": "windows",
+        "dll": "windows",
+        "bat": "windows",
+        "cmd": "windows",
+        "xsd": "xsd",
+        "gitignore": "git",
+        "gitattributes": "git",
+        "gitmodules": "git",
+        "dockerignore": "docker"
+      },
+      "file_icons": {
+        "default": {
+          "path": "./icons/light/anyType.svg"
+        },
+        "c": {
+          "path": "./icons/light/c.svg"
+        },
+        "cpp": {
+          "path": "./icons/light/cpp.svg"
+        },
+        "c_header": {
+          "path": "./icons/light/h.svg"
+        },
+        "csharp": {
+          "path": "./icons/light/Csharp.svg"
+        },
+        "css": {
+          "path": "./icons/light/css.svg"
+        },
+        "sass": {
+          "path": "./icons/light/css.svg"
+        },
+        "csv": {
+          "path": "./icons/light/csv.svg"
+        },
+        "diff": {
+          "path": "./icons/light/patch.svg"
+        },
+        "docker": {
+          "path": "./icons/light/docker.svg"
+        },
+        "editorconfig": {
+          "path": "./icons/light/editorConfig.svg"
+        },
+        "font": {
+          "path": "./icons/light/font.svg"
+        },
+        "git": {
+          "path": "./icons/light/ignored.svg"
+        },
+        "gradle": {
+          "path": "./icons/light/gradle.svg"
+        },
+        "graphql": {
+          "path": "./icons/light/graphql.svg"
+        },
+        "groovy": {
+          "path": "./icons/light/groovy.svg"
+        },
+        "html": {
+          "path": "./icons/light/html.svg"
+        },
+        "http": {
+          "path": "./icons/light/http.svg"
+        },
+        "image": {
+          "path": "./icons/light/image.svg"
+        },
+        "ipynb": {
+          "path": "./icons/light/jupyter.svg"
+        },
+        "java": {
+          "path": "./icons/light/java.svg"
+        },
+        "java_class": {
+          "path": "./icons/light/javaClass.svg"
+        },
+        "javascript": {
+          "path": "./icons/light/javaScript.svg"
+        },
+        "json": {
+          "path": "./icons/light/json.svg"
+        },
+        "kotlin": {
+          "path": "./icons/light/kotlin.svg"
+        },
+        "kotlin_script": {
+          "path": "./icons/light/kotlinScript.svg"
+        },
+        "kotlin_gradle": {
+          "path": "./icons/light/kotlinGradleScript.svg"
+        },
+        "log": {
+          "path": "./icons/light/text.svg"
+        },
+        "manifest": {
+          "path": "./icons/light/manifest.svg"
+        },
+        "markdown": {
+          "path": "./icons/light/markdown.svg"
+        },
+        "perl": {
+          "path": "./icons/light/perl.svg"
+        },
+        "php": {
+          "path": "./icons/light/php.svg"
+        },
+        "properties": {
+          "path": "./icons/light/properties.svg"
+        },
+        "python": {
+          "path": "./icons/light/python.svg"
+        },
+        "regexp": {
+          "path": "./icons/light/regexp.svg"
+        },
+        "rst": {
+          "path": "./icons/light/rst.svg"
+        },
+        "scala": {
+          "path": "./icons/light/scala.svg"
+        },
+        "settings": {
+          "path": "./icons/light/config.svg"
+        },
+        "sql": {
+          "path": "./icons/light/sql.svg"
+        },
+        "swift": {
+          "path": "./icons/light/swiftLang.svg"
+        },
+        "template": {
+          "path": "./icons/light/xml.svg"
+        },
+        "terminal": {
+          "path": "./icons/light/shell.svg"
+        },
+        "terraform": {
+          "path": "./icons/light/terraform.svg"
+        },
+        "text": {
+          "path": "./icons/light/text.svg"
+        },
+        "toml": {
+          "path": "./icons/light/toml.svg"
+        },
+        "typescript": {
+          "path": "./icons/light/typeScript.svg"
+        },
+        "archive": {
+          "path": "./icons/light/archive.svg"
+        },
+        "binary": {
+          "path": "./icons/light/binaryData.svg"
+        },
+        "windows": {
+          "path": "./icons/light/microsoftWindows.svg"
+        },
+        "xsd": {
+          "path": "./icons/light/xsd.svg"
+        },
+        "yaml": {
+          "path": "./icons/light/yaml.svg"
+        }
+      }
+    }
+  ]
+}
