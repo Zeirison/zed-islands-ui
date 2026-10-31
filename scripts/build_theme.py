@@ -180,7 +180,12 @@ def build(mode):
       "string.special": style(s["string"]), "string.special.symbol": style(s["field"]),
       "number": style(s["number"]),
       "comment": style(s["comment"], italic=(mode == "light")), "comment.doc": style(s["doc"], italic=True),
-      "function": style(s["function"]),
+      # IDEA colors declarations only; calls use the default identifier color.
+      "function": style(t), "function.method": style(t),
+      "function.definition": style(s["function"]), "function.method.definition": style(s["function"]),
+      "function.special": style(s["function"]), "function.special.definition": style(s["function"]),
+      "type.builtin": style(s["keyword"]), "type.interface": style(t),
+      "keyword.control": style(s["keyword"]),
       "property": style(s["field"]), "variable.member": style(s["field"]),
       "constant": style(s["field"], italic=True), "enum": style(t), "variant": style(s["field"], italic=True),
       "attribute": style(s["metadata"]), "preproc": style(s["metadata"]),
