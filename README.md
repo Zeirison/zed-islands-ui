@@ -73,7 +73,12 @@ corner radius and rounded selection rows. The gutter uses IDEA's green run icons
 and hover-only fold arrows, scrollbars are thin and rounded, and notifications
 look like IDEA's balloons. `"compact": true` switches to IDEA's compact metrics. With
 `"use_system_window_tabs": true` (macOS), merged project windows show as IDEA-style
-project tabs with each project's name and initials. Enable it with:
+project tabs with each project's name and initials. Tooltips show the shortcut as
+gray text. Double Shift opens Search Everywhere with Files, Symbols, Actions and
+Text tabs (Tab switches), Ctrl/Cmd+Shift+F opens a Find in Files popup, and
+tasks run in a separate Run tool window (Alt/Cmd+4) with Rerun and Stop buttons.
+The fork turns all of this on by default, together with the bundled theme,
+Inter and JetBrains Mono, and the JetBrains keymap. Enable it in a regular build with:
 
 ```jsonc
 "islands": { "enabled": true, "gap": 6, "corner_radius": 10, "tool_window_stripes": true, "navigation_path": true, "compact": false }
